@@ -1,3 +1,4 @@
+package jap.core;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -6,6 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
+import jap.exception.JapException;
 
 public class Jap {
     private String env_url, py_url;
